@@ -47,7 +47,7 @@ btn_edit.grid(row=4, column=4, padx=5, pady=5, sticky=W)
 btn_delete = Button(window, text="Del", width=5)
 btn_delete.grid(row=4, column=5, padx=5, pady=5, sticky=W)
 
-btn_load = Button(window, text="Load", width=5)
+btn_load = Button(window, text="Load", width=5, command=btn_load_click)
 btn_load.grid(row=5, column=0, padx=5, pady=5, sticky=W)
 
 btn_save = Button(window, text="Save", width=5)
